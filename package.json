@@ -1,0 +1,27 @@
+{
+  "name": "unitea",
+  "version": "1.0.0",
+  "description": "Decentralized, self-correcting trust system for anonymous campus rumors",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "trust",
+    "anonymous",
+    "blind-signatures",
+    "qra"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.4",
+    "express": "^4.18.2",
+    "natural": "^6.10.4",
+    "node-cron": "^3.0.3",
+    "node-rsa": "^1.1.1",
+    "pg": "^8.18.0",
+    "uuid": "^9.0.1"
+  }
+}

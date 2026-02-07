@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(kill:*)",
+      "Bash(fuser:*)",
+      "Bash(PGPASSWORD='nethunter^123khan' psql:*)"
+    ]
+  }
+}
